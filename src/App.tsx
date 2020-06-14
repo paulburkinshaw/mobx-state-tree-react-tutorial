@@ -27,7 +27,7 @@ class App extends React.Component<Props, State> {
 
   componentDidMount = () => {
     const { rootTree } = setupRootStore();
-    makeInspectable(rootTree);
+    // makeInspectable(rootTree);
     this.setState({ rootTree })
   }
 
